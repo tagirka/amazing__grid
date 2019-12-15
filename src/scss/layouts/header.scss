@@ -1,0 +1,79 @@
+.header {
+  position: relative;
+  padding: 35px 0;
+
+  //height: 600px;
+
+  background-image: url("/img/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.header-bg {
+  position: absolute;
+  top: 0;
+  right: -235px;
+  height: 100%;
+  width: 100%;
+  fill: #3F729B;
+  opacity: .3;
+  z-index: 0;
+}
+
+.header__wrap {
+  //max-width: 1160px;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 0 25px;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.hero {
+  max-width: 80%;
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.hero__title {
+  font-size: 52px;
+}
+
+.hero__subtitle {
+  font-weight: 300;
+  font-size: 26px;
+  color: $color-black;
+  letter-spacing: -.75px;
+  line-height: 36px;
+
+  > span {
+    font-weight: 600;
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .header {
+    padding: 85px 0;
+    //height: 800px;
+  }
+
+  .hero {
+    max-width: 50%;
+    margin-top: 196px;
+    margin-bottom: 160px;
+  }
+
+  .hero__title {
+    font-size: 72px;
+  }
+
+  .hero__subtitle {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}

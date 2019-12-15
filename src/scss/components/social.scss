@@ -1,0 +1,23 @@
+.social__link {
+  position: relative;
+  padding-left: 25px;
+  color: $color-footer-text;
+  margin-bottom: 5px;
+
+  transition: all 0.3s linear;
+
+  &:hover {
+    color: $color-base;
+  }
+}
+
+.social__logo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+
+  height: 14px;
+  width: 14px;
+  fill: $color-footer-text;
+}

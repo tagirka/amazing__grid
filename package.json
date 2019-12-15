@@ -1,0 +1,51 @@
+{
+  "name": "amaze_grid",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp --dev",
+    "build": "gulp --build",
+    "valid-html": "html-validator http://localhost:3000/index.html --islocal --verbose > ./test/err.txt"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-terser": "^1.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "gulp-postcss": "^8.0.0",
+    "cssnano": "^4.1.10",
+    "autoprefixer": "^9.7.3",
+    "css-mqpacker": "^7.0.0",
+    "gulp-uncss": "^1.0.6",
+    "webpack-stream": "^5.2.1",
+    "webpack": "^4.41.2",
+    "webpack-merge": "^4.2.2",
+    "terser-webpack-plugin": "^2.2.1",
+    "@babel/core": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "babel-eslint": "^10.0.3",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4",
+    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4"
+  }
+}

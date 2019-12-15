@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+// Outside library builds from gulp task "libs"
+//=================================================================================
+@import "libs";
+
+// My reset
+//=================================================================================
+
+@import "reset";
+
+// Custom
+//=================================================================================
+
+@import "variables";
+@import "fonts";
+@import "mixins";
+
+
+// Base
+//=================================================================================
+@import "core";
+
+// Components
+//=================================================================================
+@import "./components/nav";
+@import "./components/logo";
+@import "./components/btn";
+@import "./components/section";
+@import "./components/social";
+
+// Gui
+//=================================================================================
+
+
+
+// Layouts
+//=================================================================================
+
+
+@import "./layouts/content";
+
+@import "./layouts/header";
+@import "./layouts/about";
+@import "./layouts/gallery";
+@import "./layouts/music";
+@import "./layouts/footer";

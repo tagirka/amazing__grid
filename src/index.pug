@@ -1,0 +1,25 @@
+extends views/layout
+
+block link
+
+  link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
+  link(rel="stylesheet" href="css/style.min.css" type="text/css")
+
+block script
+
+  script(src="js/main.js")
+
+block title
+
+  title= "title"
+
+block content
+
+  include views/sections/header
+  include views/sections/about
+  include views/sections/gallery
+  include views/sections/music
+  include views/sections/footer
+
+  .sidenav-overlay(style="display: none; opacity: 0")
+  //.sidenav-overlay(style="display: block; opacity: 1")

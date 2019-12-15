@@ -1,0 +1,36 @@
+.about {
+  //max-height: 500px;
+
+}
+
+.about__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about__item {
+  flex-basis: 100%;
+}
+
+.about__image {
+  height: 100%;
+  width: 100%;
+
+  img {
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+  }
+}
+
+.about__info {
+
+}
+
+@media (min-width: $screen-md-min) {
+  .about__item {
+    flex-basis: 50%;
+  }
+}

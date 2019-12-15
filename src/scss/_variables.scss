@@ -1,0 +1,48 @@
+// ==================================
+// Typography
+// ==================================
+//
+// Font, line-height, and color for body text, headings, and more.
+
+//$font-family-base:                                              		Hind, sans-serif !default; // Hind font family
+//$font-family-sl-icons:                                              	Simple-Line-Icons !default; // Simple Line Icons third-party icons plugin
+
+// Colors
+$color-black:                                                          #000 !default;
+$color-white:                                                          #f9f9f9 !default;
+$color-base:                                                           #3F729B !default;
+
+$color-gray:                                                           #666666 !default;
+$color-gray-lite:                                                      #F3F1EF !default;
+$color-gray-dark:                                                      #282B2F !default;
+$color-gray-footer:                                                    #212227 !default;
+$color-footer-text:                                                    #919191 !default;
+
+$color-blue:                                                           #3F729B !default;
+$color-green:                                                          #2EBD59 !default;
+
+
+
+$max-width: 1920px;
+$inner_wrap: 90%;
+
+// ==================================
+// Media queries breakpoints
+// ==================================
+//
+//Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+$screen-xs-min:                											480px !default;
+
+// Small screen / tablet
+$screen-sm-min:                											768px !default;
+
+// Medium screen / desktop
+$screen-md-min:                											992px !default;
+
+// Large screen / wide desktop
+$screen-lg-min:                											1200px !default;
+
+// Large scree / wider desktop
+$screen-lg-med:                     									1260px !default;
